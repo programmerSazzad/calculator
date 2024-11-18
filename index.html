@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Made by Programmer Sazzad</title>
+</head>
+ <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(40deg,#777 ,#333);
+        padding: 10px;
+    }
+    .calculator{
+        width: 300px;
+        height: auto;
+        padding: 6px;
+        background: transparent;
+        border: 4px solid #999;
+        border-radius: 10px;
+        box-shadow: 4px 4px 4px 4px rgba(26, 30, 37, 0.788);
+    }
+    input{
+        width: 100%;
+        height: 70px;
+        background: transparent;
+        border: 0.5px solid olive;
+        padding: 5px;
+        text-align: right;
+        font-size: 24px;
+        color: wheat;
+    }
+   button{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top:15px ;
+    border-radius: 50%;
+    background: transparent;
+    border: none;
+    box-shadow: -5px -5px 6px rgb(215, 218, 221);
+   }
+   button:hover{
+    background: olivedrab;
+    color: azure;
+    
+   }
+ </style>
+<body>
+    <div class="calculator">
+        <input type="text" placeholder="0" id="inputBox">
+        <div>
+            <button>AC</button>
+            <button>DEL</button>
+            <button>%</button>
+            <button>/</button>
+        </div>
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>*</button>
+        </div>
+        <div>
+            <button>6</button>
+            <button>5</button>
+            <button>4</button>
+            <button>+</button>
+        </div>
+        <div>
+            <button>3</button>
+            <button>2</button>
+            <button>1</button>
+            <button>-</button>
+        </div>
+        <div>
+            <button>00</button>
+            <button>0</button>
+            <button>.</button>
+            <button style="background: orangered;">=</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
